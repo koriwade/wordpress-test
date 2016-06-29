@@ -7,7 +7,9 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-	<header class="site_header">
-		<h1><?php bloginfo('name'); ?></h1>
-		<h3><?php bloginfo('description'); ?></h3>
+	<div class="container">
+		<header class="site_header">
+			<h1><?php bloginfo('name'); ?></h1>
+			<h3><?php bloginfo('description'); ?></h3>
+		</header>
 </body>
