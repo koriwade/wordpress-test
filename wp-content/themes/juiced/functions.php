@@ -5,3 +5,9 @@ function testSite_recources() {
 }
 
 add_action('wp_enqueue_scripts' , 'testSite_recources');
+
+//navigation menus
+register_nav_menus(array(
+	'primary' => __( 'Primary Menu'),
+	'footer' => __('Footer Menu'),
+));
